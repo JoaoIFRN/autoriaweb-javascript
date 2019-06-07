@@ -7,7 +7,8 @@ let campos = [data,quantidade,valor];
 let form = document.querySelector("form");
 
 form.addEventListener("submit",(event)=>{
-    event.preventDefault();
+    event.preventDefault(); 
+    
     let tr = document.createElement("tr");
     campos.forEach((campo)=>{
         let td = document.createElement("td");
